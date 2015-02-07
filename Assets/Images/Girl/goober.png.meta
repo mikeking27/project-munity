@@ -1,0 +1,201 @@
+fileFormatVersion: 2
+guid: a4aa5e95b7960084da393ab126b45cc2
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: left hair
+    21300002: right hair
+    21300004: face
+    21300006: back left hair
+    21300008: back right hair
+    21300010: strand hair
+    21300012: bicep
+    21300014: sleeve
+    21300016: leg
+    21300018: dress
+    21300020: goober
+    21300022: forearm
+    21300024: shoe
+    21300026: hand
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: 2
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: left hair
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 145
+        width: 64
+        height: 45
+      alignment: 9
+      pivot: {x: .68572849, y: .426763564}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: right hair
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 160
+        width: 41
+        height: 32
+      alignment: 9
+      pivot: {x: .256443501, y: .410664082}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: face
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 119
+        width: 82
+        height: 69
+      alignment: 9
+      pivot: {x: .479743391, y: .0529283993}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: back left hair
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 92
+        width: 50
+        height: 33
+      alignment: 9
+      pivot: {x: .912535846, y: .866324246}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: back right hair
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 102
+        width: 60
+        height: 50
+      alignment: 9
+      pivot: {x: .0886207595, y: .737203956}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: strand hair
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 96
+        width: 51
+        height: 14
+      alignment: 9
+      pivot: {x: .923402965, y: .449152797}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bicep
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 71
+        width: 20
+        height: 20
+      alignment: 9
+      pivot: {x: .890261471, y: .744157016}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sleeve
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 62
+        width: 12
+        height: 23
+      alignment: 9
+      pivot: {x: .81763202, y: .517118692}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: leg
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 54
+        width: 13
+        height: 26
+      alignment: 9
+      pivot: {x: .679790795, y: .861538529}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: dress
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 13
+        width: 56
+        height: 73
+      alignment: 9
+      pivot: {x: .516949236, y: .558510482}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: goober
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 28
+        width: 46
+        height: 34
+      alignment: 9
+      pivot: {x: .533047974, y: .605088711}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: forearm
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 41
+        width: 11
+        height: 19
+      alignment: 9
+      pivot: {x: .623731434, y: .952368677}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shoe
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 35
+        width: 18
+        height: 8
+      alignment: 9
+      pivot: {x: .611111104, y: .824999809}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: hand
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 19
+        width: 12
+        height: 13
+      alignment: 9
+      pivot: {x: .5, y: .799999833}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
