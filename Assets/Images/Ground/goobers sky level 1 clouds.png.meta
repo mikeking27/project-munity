@@ -1,12 +1,9 @@
 fileFormatVersion: 2
-guid: 1207960f67f734d7f87d96de5678edc3
+guid: 10195bd2140be4f38a67ef146c7256ff
 TextureImporter:
   fileIDToRecycleName:
-    21300000: goobers tree variation_0
-    21300002: goobers tree variation_1
-    21300004: goobers tree variation_2
-    21300006: goobers tree variation_3
-    21300008: goobers tree variation_4
+    21300000: goobers sky level 1 clouds_0
+    21300002: goobers sky level 1 clouds_1
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -48,53 +45,23 @@ TextureImporter:
   buildTargetSettings: []
   spriteSheet:
     sprites:
-    - name: goobers tree variation_0
+    - name: goobers sky level 1 clouds_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 3332
-        width: 932
-        height: 882
-      alignment: 0
-      pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: goobers tree variation_1
-      rect:
-        serializedVersion: 2
-        x: 1165
-        y: 3384
-        width: 933
-        height: 830
+        y: 810
+        width: 1198
+        height: 516
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: goobers tree variation_2
+    - name: goobers sky level 1 clouds_1
       rect:
         serializedVersion: 2
-        x: 2259
-        y: 3384
-        width: 1006
-        height: 830
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: goobers tree variation_3
-      rect:
-        serializedVersion: 2
-        x: 3584
-        y: 3351
-        width: 841
-        height: 830
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: goobers tree variation_4
-      rect:
-        serializedVersion: 2
-        x: 4685
-        y: 3447
-        width: 773
-        height: 780
+        x: 2086
+        y: 0
+        width: 1527
+        height: 835
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
