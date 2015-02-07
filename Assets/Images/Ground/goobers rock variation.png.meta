@@ -1,0 +1,322 @@
+fileFormatVersion: 2
+guid: 7a496db0be5ec4a34a8a7e138e972cde
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: goobers rock variation_0
+    21300002: goobers rock variation_1
+    21300004: goobers rock variation_2
+    21300006: goobers rock variation_3
+    21300008: goobers rock variation_4
+    21300010: goobers rock variation_5
+    21300012: goobers rock variation_6
+    21300014: goobers rock variation_7
+    21300016: goobers rock variation_8
+    21300018: goobers rock variation_9
+    21300020: goobers rock variation_10
+    21300022: goobers rock variation_11
+    21300024: goobers rock variation_12
+    21300026: goobers rock variation_13
+    21300028: goobers rock variation_14
+    21300030: goobers rock variation_15
+    21300032: goobers rock variation_16
+    21300034: goobers rock variation_17
+    21300036: goobers rock variation_18
+    21300038: goobers rock variation_19
+    21300040: goobers rock variation_20
+    21300042: goobers rock variation_21
+    21300044: goobers rock variation_22
+    21300046: goobers rock variation_23
+    21300048: goobers rock variation_24
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: goobers rock variation_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1832
+        width: 603
+        height: 514
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: goobers rock variation_1
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 1832
+        width: 606
+        height: 514
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: goobers rock variation_2
+      rect:
+        serializedVersion: 2
+        x: 1895
+        y: 2083
+        width: 486
+        height: 263
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: goobers rock variation_3
+      rect:
+        serializedVersion: 2
+        x: 2962
+        y: 1797
+        width: 145
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: goobers rock variation_4
+      rect:
+        serializedVersion: 2
+        x: 3253
+        y: 1797
+        width: 145
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: goobers rock variation_5
+      rect:
+        serializedVersion: 2
+        x: 3553
+        y: 1797
+        width: 140
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: goobers rock variation_6
+      rect:
+        serializedVersion: 2
+        x: 3844
+        y: 1797
+        width: 140
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: goobers rock variation_7
+      rect:
+        serializedVersion: 2
+        x: 4134
+        y: 1797
+        width: 145
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: goobers rock variation_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1246
+        width: 603
+        height: 521
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: goobers rock variation_9
+      rect:
+        serializedVersion: 2
+        x: 1895
+        y: 1667
+        width: 486
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: goobers rock variation_10
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 1301
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: goobers rock variation_11
+      rect:
+        serializedVersion: 2
+        x: 1895
+        y: 1251
+        width: 486
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: goobers rock variation_12
+      rect:
+        serializedVersion: 2
+        x: 2842
+        y: 940
+        width: 621
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: goobers rock variation_13
+      rect:
+        serializedVersion: 2
+        x: 3633
+        y: 940
+        width: 621
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: goobers rock variation_14
+      rect:
+        serializedVersion: 2
+        x: 4510
+        y: 940
+        width: 618
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: goobers rock variation_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 624
+        width: 603
+        height: 516
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: goobers rock variation_16
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 880
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: goobers rock variation_17
+      rect:
+        serializedVersion: 2
+        x: 1335
+        y: 880
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: goobers rock variation_18
+      rect:
+        serializedVersion: 2
+        x: 1895
+        y: 835
+        width: 486
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: goobers rock variation_19
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 603
+        height: 514
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: goobers rock variation_20
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 439
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: goobers rock variation_21
+      rect:
+        serializedVersion: 2
+        x: 1335
+        y: 429
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: goobers rock variation_22
+      rect:
+        serializedVersion: 2
+        x: 1895
+        y: 459
+        width: 486
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: goobers rock variation_23
+      rect:
+        serializedVersion: 2
+        x: 2812
+        y: 108
+        width: 626
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: goobers rock variation_24
+      rect:
+        serializedVersion: 2
+        x: 3633
+        y: 108
+        width: 621
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
