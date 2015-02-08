@@ -18,7 +18,7 @@ TagManager:
   Builtin Layer 7: 
   User Layer 8: Menu Items
   User Layer 9: Environment
-  User Layer 10: 
+  User Layer 10: Player
   User Layer 11: 
   User Layer 12: 
   User Layer 13: 
@@ -49,13 +49,13 @@ TagManager:
     userID: 1
     uniqueID: 1093696345
     locked: 0
-  - name: Foreground
-    userID: 2
-    uniqueID: 1859086223
-    locked: 0
   - name: Characters
     userID: 3
     uniqueID: 3940858523
+    locked: 0
+  - name: Foreground
+    userID: 2
+    uniqueID: 1859086223
     locked: 0
   - name: UI
     userID: 4

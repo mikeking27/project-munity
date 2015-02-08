@@ -13,14 +13,19 @@ public class GirlController : MonoBehaviour
 	private CameraController cam;
 	
 	public bool grounded = false;
+	public bool grab = false;
 	int groundedTrigger = 0;
 	public Transform groundCheck;
-	float groundRadius = 0.2f;
+	public Transform grabTopCheck;
+	public Transform grabBottomCheck;
+	float groundRadius = 0.01f;
 	public LayerMask whatIsGround;
 	public float jumpforce = 15f;
 
 	private bool hit = false;
 	private int hitCounter = 0;
+
+	private float grabTimer = 0f;
 	
 	private InputCollection lastCollection =  new InputCollection();
 	
@@ -36,10 +41,12 @@ public class GirlController : MonoBehaviour
 	void FixedUpdate ()
 	{
 		grounded = Physics2D.OverlapCircle (groundCheck.position, groundRadius, whatIsGround);
+		grab = (!Physics2D.OverlapCircle (grabTopCheck.position, groundRadius, whatIsGround)) && Physics2D.OverlapCircle (grabBottomCheck.position, groundRadius, whatIsGround);
+
 		//cam.toggleOnGround (grounded);
 		groundedTrigger++;
 		
-		if (groundedTrigger > 20)
+		if (groundedTrigger > 30)
 			anim.SetBool("OnGround", grounded);
 		
 		if (hit && hitCounter > 0)
@@ -48,11 +55,16 @@ public class GirlController : MonoBehaviour
 			hit = false;
 		
 		
-		anim.SetFloat ("vSpeed", rigidbody2D.velocity.y);
-		
+//		anim.SetFloat ("vSpeed", rigidbody2D.velocity.y);
+
 		float move = InputHandler.GetAxis ();
 		float absMove = Mathf.Abs (move * maxSpeed);
-		
+
+		if (grab && Mathf.Abs (rigidbody2D.velocity.y) < 0.2f && grabTimer < Time.time) {
+			grabTimer = Time.time + 1.5f;
+			anim.SetTrigger ("WallGrab");
+		}
+
 		anim.SetFloat("Speed", absMove);
 		
 		if (!hit) {
@@ -68,10 +80,11 @@ public class GirlController : MonoBehaviour
 	{
 		InputCollection input = InputHandler.GetCollection ();
 
-		if (groundedTrigger > 20 && grounded && input.jump) {
+		if (groundedTrigger > 50 && grounded && input.jump) {
 			groundedTrigger = 0;
 			anim.SetBool ("OnGround", false);
-			rigidbody2D.AddForce (new Vector2 (0, jumpforce));
+			anim.SetTrigger ("Jump");
+			Invoke ("Jump", 0.2f);
 		}
 
 		if (grounded) {
@@ -94,6 +107,10 @@ public class GirlController : MonoBehaviour
 		hit = true;
 		hitCounter = frames;
 		anim.SetTrigger("Hit");
+	}
+
+	public void Jump() {
+		rigidbody2D.AddForce (new Vector2 (0, jumpforce));
 	}
 	
 }
